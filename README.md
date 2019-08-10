@@ -1,7 +1,7 @@
 # Snacc-Attacc
 A CS 345 Game Development Fundamentals Team Project
 
-##Congrats!
+## Congrats!
 Looks like you found the repo
 Here are some things to do:
 1. Download Github Desktop or Sourcetree

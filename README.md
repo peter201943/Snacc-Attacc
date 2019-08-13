@@ -8,6 +8,8 @@ Looks like you found the repo.Here are some things to do:
 3. Pull!
 
 
+------------------------------------------------------------------------------------------------
+
 
 		WORK LOG
 
@@ -27,7 +29,7 @@ Looks like you found the repo.Here are some things to do:
 
 	General
 	*&CT CONTENTS					//Names of Notes
-	*&CT HELLO						//Greetings
+	*&CT HELLO					//Greetings
 	*&CT REMINDERS					//Do this before running
 	*&CT PROGRESS					//Deliverable Breakdown and Status
 	
@@ -40,11 +42,6 @@ Looks like you found the repo.Here are some things to do:
 	Legal
 	*&CT MEMBERS					//Roles, Names, and Contacts
 	*&CT CREDITS					//Anyone's property we use
-	
-	Note Design
-	*&CT METAFORMAT					//Description of Layout
-	*&CT FORMAT						//Layout of Notes
-	*&CT ABOUT						//Who am I
 
 
 ------------------------------------------------------------------------------------------------
@@ -153,21 +150,21 @@ Content									//WIP
 
 	Items								//WIP
 
-		Marshmellow Ammo				//
+		Marshmellow Ammo					//
 			Model						//PH
 			Animation					//
 			Texture						//
 			Script						//
 			Polish						//
 
-		Chocolate Ammo					//
+		Chocolate Ammo						//
 			Model						//PH
 			Animation					//
 			Texture						//
 			Script						//
 			Polish						//
 
-		Cracker Ammo					//
+		Cracker Ammo						//
 			Model						//PH
 			Animation					//
 			Texture						//
@@ -192,8 +189,8 @@ Content									//WIP
 	Interaction							//WIP
 
 		Movement						//WIP
-			Player Script				//DONE
-			Monster Script				//WIP
+			Player Script					//DONE
+			Monster Script					//WIP
 			Polish						//
 		
 		Looking							//WIP
@@ -202,7 +199,7 @@ Content									//WIP
 
 		Aiming							//
 			Script						//
-			HUD							//
+			HUD						//
 			Polish						//
 		
 		Projectile						//
@@ -258,7 +255,7 @@ Content									//WIP
 		Scenes							//
 			Start						//
 			Transition					//
-			End							//
+			End						//
 	
 	
 	Time								//WIP
@@ -271,7 +268,7 @@ Content									//WIP
 
 
 Codes
-	//			No Progress
+	//		No Progress
 	//WIP		Work in Progress
 	//DONE		Work Done
 	//PH		Place Holder Work
@@ -389,48 +386,48 @@ Content
 
 Assets
 
-	Ammo						//Items the player can pickup to refill their gun
+	Ammo					//Items the player can pickup to refill their gun
 		MarshmellowAmmo			//Marshmellow variant ammo
 		ChocolateAmmo			//Chocolate variant ammo
-		CrackerAmmo				//Cracker variant ammo
+		CrackerAmmo			//Cracker variant ammo
 	
-	Debug						//Tools for error prevention
+	Debug					//Tools for error prevention
 		DebugMaterial			//An annoying texture for invisble objects
 
 	Documentation				//Thoughts, Notes, Concerns
-		WorkLog.txt				//This file documents thoughts and semantics
+		WorkLog.txt			//This file documents thoughts and semantics
 	
-	Forest						//Background Resources
-		Ground					//A Simple Background
-		Bush					//A Simple Bush
-		Rock					//A Simple Rock
-		Tree1					//A Simple Tree
-		Tree2					//Another Simple Tree
+	Forest					//Background Resources
+		Ground				//A Simple Background
+		Bush				//A Simple Bush
+		Rock				//A Simple Rock
+		Tree1				//A Simple Tree
+		Tree2				//Another Simple Tree
 
-	Game						//Gameplay scripts
-		GameManager				//Script for all gameplay external to agents
+	Game					//Gameplay scripts
+		GameManager			//Script for all gameplay external to agents
 
-	Lighting					//Environment illumination
-		SunLight				//Default Directional Light
+	Lighting				//Environment illumination
+		SunLight			//Default Directional Light
 	
-	Monsters					//Enemy Agents to Player
+	Monsters				//Enemy Agents to Player
 		MarshmellowMonster		//Marshmellow variant enemy
 		ChocolateMonster		//Marshmellow variant enemy
 		CrackerMonster			//Marshmellow variant enemy
 	
-	Player						//Player Resources
+	Player					//Player Resources
 		PlayerObject			//Model, Material, and Script for Player
 		PlayerCameraObject		//Camera, Script, and Rig for Player
 
-	Story						//Dramatic Elements
-		Book					//Cookbook the characters find
-		CampFire				//A Campfire
-		Tent					//A Tent
+	Story					//Dramatic Elements
+		Book				//Cookbook the characters find
+		CampFire			//A Campfire
+		Tent				//A Tent
 
-	Scenes						//Places the player plays in
-		TestScene				//Prototype designs and ideas
-		Story1Scene				//First Level
-		Story2Scene				//Second Level
+	Scenes					//Places the player plays in
+		TestScene			//Prototype designs and ideas
+		Story1Scene			//First Level
+		Story2Scene			//Second Level
 
 Asset Organization
 	I have organized the individual features of the project into their own respective folders
@@ -447,9 +444,9 @@ Scene Organization
 	The scenes are also organized by feature
 	The TestScene is an example:
 		
-		GlobalsObject		//Anything affecting everything
+		GlobalsObject			//Anything affecting everything
 			Ground			//People walk on this
-			Sun				//People use this to see
+			Sun			//People use this to see
 			GameManager		//Controls Events, Scores, and Death
 		
 		PropsObject			//Decorative items
@@ -463,11 +460,11 @@ Scene Organization
 			MarshAmmo		//An Instance of MarshmellowAmmo
 			Smore1			//An Instance of Smore
 
-		PlayersObject		//Gameplay items the player controls
+		PlayersObject			//Gameplay items the player controls
 			Player			//The player's character
 			Camera			//The player's camera and rig
 			
-		MonstersObject		//Gameplay agents
+		MonstersObject			//Gameplay agents
 			Marsh			//An Instance of MarshmellowMonster
 			Choc1			//An Instance of ChocolateMonster
 			Choc2			//Another Instance of ChocolateMonster
@@ -589,7 +586,7 @@ Kevin MacLeod's "Fluffing a Duck"
 	Music from https://filmmusic.io
 	"Fluffing a Duck" by Kevin MacLeod (https://incompetech.com)
 	License: CC BY (http://creativecommons.org/licenses/by/4.0/)
-## 
+
 
 ------------------------------------------------------------------------------------------------
 

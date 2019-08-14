@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 7489025662556645818}
   m_Layer: 10
   m_Name: ChocolateMonsterObject
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -301,12 +301,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 530239206400711913, guid: f3a87d07f7569904c87d0984ca507075,
+    - target: {fileID: 520701243176295340, guid: f3a87d07f7569904c87d0984ca507075,
         type: 3}
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 520701243176295340, guid: f3a87d07f7569904c87d0984ca507075,
+    - target: {fileID: 530239206400711913, guid: f3a87d07f7569904c87d0984ca507075,
         type: 3}
       propertyPath: m_Layer
       value: 10

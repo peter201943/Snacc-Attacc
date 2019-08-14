@@ -484,6 +484,9 @@ Shooting
 		Part 5 has HUD
 		Part 6 has Health, Attacking
 		Part 7 has Death, Despawning, Polish
+		Part 8 has a scoring system
+		Part 9 is a spawner
+		Part 10 is a death system
 		
 	Juicy Breakout Code Repo
 		https://github.com/grapefrukt/juicy-breakout

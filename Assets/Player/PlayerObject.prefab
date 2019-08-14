@@ -207,11 +207,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a04d8d53d1efd94da9541c111b26dbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage: 1
   FireTime: 0.5
-  Range: 50
-  ExplosionRadius: 50
-  ExplosionPower: 1000
+  GunBarrel: {fileID: 1295400041849862710}
+  FireForce: 50
+  ProjectileLifetime: 5
+  AntiCracker: {fileID: 2959592183487525829, guid: 6e4cb4555ff0d7e4bb71fc86cd846214,
+    type: 3}
+  AntiChocolate: {fileID: 7441104818988033358, guid: f483e139b72239845b37ce6051322350,
+    type: 3}
+  AntiMarshmellow: {fileID: 3384281580530834678, guid: c9843e4f9ac1ecd4fb20d9bdfc76e728,
+    type: 3}
+--- !u!1 &3079058619475162194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2502303169651046026}
+  m_Layer: 12
+  m_Name: GunBarrelObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2502303169651046026
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3079058619475162194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.989, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4871573481592043752}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1295400043695758036
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -314,12 +349,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.55
       objectReference: {fileID: 0}
-    - target: {fileID: 3167819191933140711, guid: db86a9f2e800f1049bfdccd9ec3c6db4,
+    - target: {fileID: 4087936436320612660, guid: db86a9f2e800f1049bfdccd9ec3c6db4,
         type: 3}
       propertyPath: m_Layer
       value: 12
       objectReference: {fileID: 0}
-    - target: {fileID: 4087936436320612660, guid: db86a9f2e800f1049bfdccd9ec3c6db4,
+    - target: {fileID: 3167819191933140711, guid: db86a9f2e800f1049bfdccd9ec3c6db4,
         type: 3}
       propertyPath: m_Layer
       value: 12
@@ -336,6 +371,12 @@ PrefabInstance:
 --- !u!4 &7987565451887631822 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9161349739490510618, guid: db86a9f2e800f1049bfdccd9ec3c6db4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1295400043695758036}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4871573481592043752 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5936132696945418812, guid: db86a9f2e800f1049bfdccd9ec3c6db4,
     type: 3}
   m_PrefabInstance: {fileID: 1295400043695758036}
   m_PrefabAsset: {fileID: 0}

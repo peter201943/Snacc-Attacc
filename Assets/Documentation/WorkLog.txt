@@ -13,7 +13,7 @@
 		CONTENTS
 
 *&T CONTENTS
-*&D 2019 08 02
+*&D 2019 08 20
 *&A PJM
 
 	General

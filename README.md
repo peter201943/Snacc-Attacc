@@ -7,14 +7,18 @@ Looks like you found the repo.Here are some things to do:
 2. Copy the Project Link and Clone it on your computer
 3. Pull!
 
+This readme is a copy/paste of the WorkLog. If details are our of place, consult Assets/Documentation/WorkLog.txt
+
 
 ------------------------------------------------------------------------------------------------
+
+
 
 
 		WORK LOG
 
 *&T WORK LOG
-*&D 2019 08 02
+*&D 2019 08 20
 *&A PJM
 
 
@@ -29,7 +33,7 @@ Looks like you found the repo.Here are some things to do:
 
 	General
 	*&CT CONTENTS					//Names of Notes
-	*&CT HELLO					//Greetings
+	*&CT HELLO						//Greetings
 	*&CT REMINDERS					//Do this before running
 	*&CT PROGRESS					//Deliverable Breakdown and Status
 	
@@ -42,6 +46,11 @@ Looks like you found the repo.Here are some things to do:
 	Legal
 	*&CT MEMBERS					//Roles, Names, and Contacts
 	*&CT CREDITS					//Anyone's property we use
+	
+	Note Design
+	*&CT METAFORMAT					//Description of Layout
+	*&CT FORMAT						//Layout of Notes
+	*&CT ABOUT						//Who am I
 
 
 ------------------------------------------------------------------------------------------------
@@ -150,21 +159,21 @@ Content									//WIP
 
 	Items								//WIP
 
-		Marshmellow Ammo					//
+		Marshmellow Ammo				//
 			Model						//PH
 			Animation					//
 			Texture						//
 			Script						//
 			Polish						//
 
-		Chocolate Ammo						//
+		Chocolate Ammo					//
 			Model						//PH
 			Animation					//
 			Texture						//
 			Script						//
 			Polish						//
 
-		Cracker Ammo						//
+		Cracker Ammo					//
 			Model						//PH
 			Animation					//
 			Texture						//
@@ -189,8 +198,8 @@ Content									//WIP
 	Interaction							//WIP
 
 		Movement						//WIP
-			Player Script					//DONE
-			Monster Script					//WIP
+			Player Script				//DONE
+			Monster Script				//WIP
 			Polish						//
 		
 		Looking							//WIP
@@ -199,7 +208,7 @@ Content									//WIP
 
 		Aiming							//
 			Script						//
-			HUD						//
+			HUD							//
 			Polish						//
 		
 		Projectile						//
@@ -255,7 +264,7 @@ Content									//WIP
 		Scenes							//
 			Start						//
 			Transition					//
-			End						//
+			End							//
 	
 	
 	Time								//WIP
@@ -268,7 +277,7 @@ Content									//WIP
 
 
 Codes
-	//		No Progress
+	//			No Progress
 	//WIP		Work in Progress
 	//DONE		Work Done
 	//PH		Place Holder Work
@@ -386,48 +395,48 @@ Content
 
 Assets
 
-	Ammo					//Items the player can pickup to refill their gun
+	Ammo						//Items the player can pickup to refill their gun
 		MarshmellowAmmo			//Marshmellow variant ammo
 		ChocolateAmmo			//Chocolate variant ammo
-		CrackerAmmo			//Cracker variant ammo
+		CrackerAmmo				//Cracker variant ammo
 	
-	Debug					//Tools for error prevention
+	Debug						//Tools for error prevention
 		DebugMaterial			//An annoying texture for invisble objects
 
 	Documentation				//Thoughts, Notes, Concerns
-		WorkLog.txt			//This file documents thoughts and semantics
+		WorkLog.txt				//This file documents thoughts and semantics
 	
-	Forest					//Background Resources
-		Ground				//A Simple Background
-		Bush				//A Simple Bush
-		Rock				//A Simple Rock
-		Tree1				//A Simple Tree
-		Tree2				//Another Simple Tree
+	Forest						//Background Resources
+		Ground					//A Simple Background
+		Bush					//A Simple Bush
+		Rock					//A Simple Rock
+		Tree1					//A Simple Tree
+		Tree2					//Another Simple Tree
 
-	Game					//Gameplay scripts
-		GameManager			//Script for all gameplay external to agents
+	Game						//Gameplay scripts
+		GameManager				//Script for all gameplay external to agents
 
-	Lighting				//Environment illumination
-		SunLight			//Default Directional Light
+	Lighting					//Environment illumination
+		SunLight				//Default Directional Light
 	
-	Monsters				//Enemy Agents to Player
+	Monsters					//Enemy Agents to Player
 		MarshmellowMonster		//Marshmellow variant enemy
 		ChocolateMonster		//Marshmellow variant enemy
 		CrackerMonster			//Marshmellow variant enemy
 	
-	Player					//Player Resources
+	Player						//Player Resources
 		PlayerObject			//Model, Material, and Script for Player
 		PlayerCameraObject		//Camera, Script, and Rig for Player
 
-	Story					//Dramatic Elements
-		Book				//Cookbook the characters find
-		CampFire			//A Campfire
-		Tent				//A Tent
+	Story						//Dramatic Elements
+		Book					//Cookbook the characters find
+		CampFire				//A Campfire
+		Tent					//A Tent
 
-	Scenes					//Places the player plays in
-		TestScene			//Prototype designs and ideas
-		Story1Scene			//First Level
-		Story2Scene			//Second Level
+	Scenes						//Places the player plays in
+		TestScene				//Prototype designs and ideas
+		Story1Scene				//First Level
+		Story2Scene				//Second Level
 
 Asset Organization
 	I have organized the individual features of the project into their own respective folders
@@ -444,9 +453,9 @@ Scene Organization
 	The scenes are also organized by feature
 	The TestScene is an example:
 		
-		GlobalsObject			//Anything affecting everything
+		GlobalsObject		//Anything affecting everything
 			Ground			//People walk on this
-			Sun			//People use this to see
+			Sun				//People use this to see
 			GameManager		//Controls Events, Scores, and Death
 		
 		PropsObject			//Decorative items
@@ -460,11 +469,11 @@ Scene Organization
 			MarshAmmo		//An Instance of MarshmellowAmmo
 			Smore1			//An Instance of Smore
 
-		PlayersObject			//Gameplay items the player controls
+		PlayersObject		//Gameplay items the player controls
 			Player			//The player's character
 			Camera			//The player's camera and rig
 			
-		MonstersObject			//Gameplay agents
+		MonstersObject		//Gameplay agents
 			Marsh			//An Instance of MarshmellowMonster
 			Choc1			//An Instance of ChocolateMonster
 			Choc2			//Another Instance of ChocolateMonster
@@ -485,11 +494,16 @@ Shooting
 	Survival Shooter Tutorial - 1 of 10 : Environment - Unity Official Tutorials (new)
 		https://www.youtube.com/watch?v=_lP6epjupJs&feature=youtu.be
 		This is my primary reference for coding this game
-		Part 3 concerns camera manipulation
-		Part 4 has some particles; Enemy Health in Movement
-		Part 5 has HUD
-		Part 6 has Health, Attacking
+		Part 1 is overview and setup							DONE
+		Part 2 is player animation, physics, code				DONE (Need Models)
+		Part 3 is camera code									DONE (Not Used)
+		Part 4 is enemy effects, navigation, animation			DONE (Need Models, Health)
+		Part 5 is health ui										DONE
+		Part 6 is Health, Attacking								ERR (Cannot Drag Components)
 		Part 7 has Death, Despawning, Polish
+		Part 8 has a scoring system
+		Part 9 is a spawner
+		Part 10 is a death system
 		
 	Juicy Breakout Code Repo
 		https://github.com/grapefrukt/juicy-breakout
@@ -586,6 +600,408 @@ Kevin MacLeod's "Fluffing a Duck"
 	Music from https://filmmusic.io
 	"Fluffing a Duck" by Kevin MacLeod (https://incompetech.com)
 	License: CC BY (http://creativecommons.org/licenses/by/4.0/)
+
+Jesper Kyd's "Oof"
+	License: ???
+
+Sheb Wooley's "Wilhelm Scream"
+	Sound from https://archive.org/
+	License: CC PD (https://creativecommons.org/licenses/publicdomain/)
+
+
+------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------
+
+
+		METAFORMAT
+
+*&T METAFORMAT
+*&D 2017 05 22
+*&A PJM
+
+General
+
+	I put this information at the bottom of any external notes I share.
+	This is the format I use for my notes
+	It is both human and machine readable
+	This allows it to be searched using CTRL + F, F3, or other shortcuts in most text editors
+	The tagging system provides both semantic and lookup uses:
+
+		Global
+		*&T					//Title
+		*&D					//Date
+		*&A					//Author
+	
+		Local
+		
+		Content
+		*&CT				//Global Contents Item
+		*&CH				//Local Contents Item
+	
+	Do not worry about needing to know this
+	If you do add notes, just be warned that I will update them to fit my style
+
+
+
+Style
+
+	Rule of Four
+		It spaces things out to make them more readable and searchable
+		Things are grouped into groups of 4 when there are more than 4 of a thing
+
+	Gradation of Information
+		Information flows left to right, less detail to more detail
+		I do this through indent level and listing
+			Indent Level
+			Listing
+		I limit this to avoid endless sub details and contents
+	
+	Space is Pace
+		Notes should be easy to look at
+		Spacing things for reading is a must
+		If something looks like a wall of text, break things up by spacing until it looks better
+	
+	Recursion
+		Rules which apply at one level apply at all levels
+	
+	Structure
+		Any structure should be denoted by a table of contents
+		This builds a searchable dictionary which can be searched through and searched for
+	
+	Comments
+		Comments are information; Information is commentary
+		I use "//" indented to the right of any text to make a meta-comment
+		I generally use these in tables of contents to tell you what each item is
+		If I have too many details, I newline and indent under the item to add information
+		Some comments need comments - this is meta-commentary
+			Meta commentary can go on endlessly, and really screw up formatting
+			To address this, I cut it off after a point
+			If you run out of space, make the meta-commentary its own note
+		Examples
+			
+			Double Dash					//Here is the Comment
+			
+			Newline
+				Here is the Comment
+			
+			Here is the Comment
+			Header						//These are normally done for lists of things (like contents)
+			
+			Double - Double Dash		//Here is the Comment			//And here is the comment's comment
+			
+			New - Newline
+				Here is the comment
+					And here is the comment's comment
+			
+	Meta Information
+		I attach three things to a note:
+			When it was last updated (*&D)
+			What I can call it (*&T/*&H)
+			Who wrote it (*&A)
+	
+	Linked Information
+		Some information may be duplicated across many places
+		I use tagging to identify these areas so they can be modified simultaneously
+		If you do not know how to script, do not worry about this
+
+
+
+
+Tutorials
+
+	Markdown
+		https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+		I use this for Git Documentation
+		
+	Searching
+		Hold "Ctrl" and Press "F"		//This is the default shortcut on most editors
+		Type "*&H NOTE"					//This shows all notes in this note concerning NOTES
+		Type "*&H NOTE EXAMPLE"			//This takes you to the specific example note
+		
+	Block Indenting
+		Most text editors support indenting multiple lines of text
+		Highlight several lines and Press "Tab"
+			This should shift the highlighted region right
+		Now Hold "Shift" and Press "Tab"
+			This should shift the highlighted region left
+	
+	Theories of Logic
+		https://en.wikipedia.org/wiki/Metamathematics
+		Existence, truth, and what it really means to be commentary on commentary
+	
+	Dictionary Theory
+		https://en.wikipedia.org/wiki/Associative_array
+		How I came to this crazy nonsense for tagging and ordering information
+	
+	Windows Shortcuts
+		https://www.hongkiat.com/blog/100-keyboard-shortcuts-windows/
+		I recommend using these to edit text as efficiently as possible
+		Macintosh generally follows the same format
+
+
+------------------------------------------------------------------------------------------------
+
+
+		FORMAT
+		
+*&T FORMAT
+*&D 2017 05 22
+*&A PJM
+
+*&H CONTENTS
+	
+	Notes
+	*&CH NOTE PROTOTYPE
+	*&CH NOTE COMMENTS
+	*&CH NOTE EXAMPLE
+	
+	Contents
+	*&CH CONTENTS PROTOTYPE
+	*&CH CONTENTS COMMENTS
+	*&CH CONTENTS EXAMPLE
+
+
+
+
+*&H NOTE PROTOTYPE
+
+|	------------------------------------------------------------------------------------------------
+|
+|
+|			TITLE
+|
+|	*&T TITLE
+|	*&D YYYY MM DD
+|	*&A FML
+|
+|	Topic
+|		Information
+|		Information
+|		Information
+|			Detail
+|			Detail
+|				Max Level
+|
+|	Next Topic
+|		Information
+|
+|
+|	------------------------------------------------------------------------------------------------
+	
+	
+	
+
+*&H NOTE COMMENTS
+
+|	------------------------------------------------------------------------------------------------
+|	|-------------------------------------- 96 Dashes Separator -----------------------------------|
+|								//Two Newlines to Start
+|			TITLE				//Two Tabs & All Caps
+|								//One Newline
+|	*&T TITLE					//Title Tag & All Caps
+|	*&D YYYY MM DD				//Date Tag & Numerics
+|	*&A FML						//Author Tag & All Caps Initials
+|
+|	Topic						//Capped First Letter
+|		Information				//One Tab
+|		Information
+|		Information
+|			Detail				//Two Tabs
+|			Detail
+|				Max Level		//Try not to go over three tabs. Move information to it's own Topic.
+|								//One Newline
+|	Next Topic
+|		Information
+|								//Two Newlines to End
+|	|-------------------------------------- 96 Dashes Separator------------------------------------|
+|	------------------------------------------------------------------------------------------------
+
+
+
+
+
+*&H NOTE EXAMPLE
+
+|	------------------------------------------------------------------------------------------------
+|
+|
+|			BISCUITS
+|
+|	*&T BISCUITS
+|	*&D 2017 05 22
+|	*&A PJM
+|
+|	Ingredients
+|		Flour
+|		Eggs
+|		Milk
+|			2% or Better
+|			Thickened
+|				Gradient of 5% or better
+|
+|	Reminder
+|		Don't leave in the oven too long
+|
+|
+|	------------------------------------------------------------------------------------------------
+
+
+
+
+
+*&H CONTENTS PROTOTYPE
+
+|	------------------------------------------------------------------------------------------------
+|
+|
+|	*&H LOCAL CONTENTS
+|		*&CH LOCAL ITEM				//Item Description
+|
+|	*&T SHORT CONTENTS
+|		*&CT GLOBAL ITEM			//Item Description
+|	
+|	
+|	
+|	*&T LONG CONTENTS
+|		
+|		Topic
+|		*&CT GLOBAL TOPIC ITEM			//Description
+|		
+|		Next Topic
+|		*&CT GLOBAL NEXT TOPIC ITEM		//Description
+|
+|
+|	------------------------------------------------------------------------------------------------
+
+
+
+
+*&H CONTENTS COMMENTS
+
+|	------------------------------------------------------------------------------------------------
+|
+|
+|	*&H LOCAL CONTENTS
+|		*&CH LOCAL ITEM				//Item Description		//Comment describes item in a sentence
+|		
+|		
+|		
+|	*&T SHORT CONTENTS
+|		*&CT GLOBAL ITEM			//Item Description
+|	
+|	
+|	
+|	*&T LONG CONTENTS
+|		
+|		Topic							//Topic groups items together for readability
+|		*&CT GLOBAL TOPIC ITEM			//Description
+|		
+|		Next Topic
+|		*&CT GLOBAL NEXT TOPIC ITEM		//Description
+|
+|
+|	------------------------------------------------------------------------------------------------
+
+
+
+
+*&H CONTENTS EXAMPLE
+
+|	------------------------------------------------------------------------------------------------
+|
+|
+|	*&H CONTENTS
+|		*&CH PARCHEESI				//Rules to play the game
+|
+|
+|
+|	*&T SHORTCUTS CONTETS
+|		*&CT LISTING				//Lists shortcuts by name and function
+|	
+|	
+|	
+|	*&T LISTING CONTENTS
+|		
+|		Quitting
+|		*&CT KILL WINDOW			//Closes the actively selected application
+|		
+|		Copying
+|		*&CT SELECT ALL				//Highlights all text available in a closure
+|
+|
+|	------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------
+
+
+		ABOUT
+
+*&T ABOUT
+*&D 2019 08 02
+*&A PJM
+
+I am Peter Mangelsdorf
+I am a computer scientist of interactive simulation
+I can be reached at pjm349@drexel.edu or peter201943@gmail.com
 
 
 ------------------------------------------------------------------------------------------------

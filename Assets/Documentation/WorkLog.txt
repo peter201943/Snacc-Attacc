@@ -13,7 +13,7 @@
 		CONTENTS
 
 *&T CONTENTS
-*&D 2019 08 02
+*&D 2019 08 20
 *&A PJM
 
 	General
@@ -479,10 +479,12 @@ Shooting
 	Survival Shooter Tutorial - 1 of 10 : Environment - Unity Official Tutorials (new)
 		https://www.youtube.com/watch?v=_lP6epjupJs&feature=youtu.be
 		This is my primary reference for coding this game
-		Part 3 concerns camera manipulation
-		Part 4 has some particles; Enemy Health in Movement
-		Part 5 has HUD
-		Part 6 has Health, Attacking
+		Part 1 is overview and setup							DONE
+		Part 2 is player animation, physics, code				DONE (Need Models)
+		Part 3 is camera code									DONE (Not Used)
+		Part 4 is enemy effects, navigation, animation			DONE (Need Models, Health)
+		Part 5 is health ui										DONE
+		Part 6 is Health, Attacking								ERR (Cannot Drag Components)
 		Part 7 has Death, Despawning, Polish
 		Part 8 has a scoring system
 		Part 9 is a spawner
@@ -583,6 +585,13 @@ Kevin MacLeod's "Fluffing a Duck"
 	Music from https://filmmusic.io
 	"Fluffing a Duck" by Kevin MacLeod (https://incompetech.com)
 	License: CC BY (http://creativecommons.org/licenses/by/4.0/)
+
+Jesper Kyd's "Oof"
+	License: ???
+
+Sheb Wooley's "Wilhelm Scream"
+	Sound from https://archive.org/
+	License: CC PD (https://creativecommons.org/licenses/publicdomain/)
 
 
 ------------------------------------------------------------------------------------------------
